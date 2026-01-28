@@ -1,0 +1,3 @@
+{
+  "/(auth)/(dashboard)/dashboard/products/new/page": "app/(auth)/(dashboard)/dashboard/products/new/page.js"
+}

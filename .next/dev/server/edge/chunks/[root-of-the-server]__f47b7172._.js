@@ -25,85 +25,72 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$website$2f$ecomer
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$website$2f$ecomerceWebsite$2f$node_modules$2f$next$2d$auth$2f$jwt$2f$index$2e$js__$5b$middleware$2d$edge$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/website/ecomerceWebsite/node_modules/next-auth/jwt/index.js [middleware-edge] (ecmascript)");
 ;
 ;
+function getSubdomainFromHost(host) {
+    const hostname = host.split(":")[0] // remove port
+    ;
+    // localhost: sub.localhost (rare) OR lvh.me: sub.lvh.me
+    // if you use zaza.lvh.me -> subdomain = zaza
+    const parts = hostname.split(".").filter(Boolean);
+    if (parts.length < 3) return null // ex: lvh.me or localhost
+    ;
+    return parts[0];
+}
 async function middleware(request) {
-    const { pathname, host } = request.nextUrl;
-    // Obtenir le token d'authentification
+    const pathname = request.nextUrl.pathname;
+    const host = request.headers.get("host") || "";
+    // ✅ Auth token (for dashboard/admin)
     const token = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$website$2f$ecomerceWebsite$2f$node_modules$2f$next$2d$auth$2f$jwt$2f$index$2e$js__$5b$middleware$2d$edge$5d$__$28$ecmascript$29$__["getToken"])({
         req: request,
         secret: process.env.NEXTAUTH_SECRET
     });
-    // Extraire le subdomain
-    const mainDomain = ("TURBOPACK compile-time value", "localhost:3000") || 'localhost:3000';
-    const cleanHost = host.split(':')[0];
-    const cleanMainDomain = mainDomain.split(':')[0];
-    let subdomain = null;
-    if (cleanHost !== cleanMainDomain && cleanHost !== 'localhost') {
-        const parts = cleanHost.split('.');
-        const mainParts = cleanMainDomain.split('.');
-        if (parts.length > mainParts.length) {
-            subdomain = parts[0];
-        }
-    }
-    // ==========================================
-    // ROUTES PUBLIQUES (pas besoin d'auth)
-    // ==========================================
+    // ✅ Public routes
     const publicRoutes = [
-        '/login',
-        '/signup',
-        '/api/auth',
-        '/api/register'
+        "/login",
+        "/signup",
+        "/api/auth",
+        "/api/register"
     ];
-    const isPublicRoute = publicRoutes.some((route)=>pathname.startsWith(route));
-    if (isPublicRoute) {
+    if (publicRoutes.some((r)=>pathname.startsWith(r))) {
         return __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$website$2f$ecomerceWebsite$2f$node_modules$2f$next$2f$dist$2f$esm$2f$server$2f$web$2f$exports$2f$index$2e$js__$5b$middleware$2d$edge$5d$__$28$ecmascript$29$__["NextResponse"].next();
     }
-    // ==========================================
-    // LANDING PAGE (domaine principal sans subdomain)
-    // ==========================================
-    if (!subdomain && pathname === '/') {
+    // ✅ Ignore next internals / static
+    if (pathname.startsWith("/_next") || pathname.startsWith("/favicon.ico") || pathname.match(/\.(.*)$/)) {
         return __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$website$2f$ecomerceWebsite$2f$node_modules$2f$next$2f$dist$2f$esm$2f$server$2f$web$2f$exports$2f$index$2e$js__$5b$middleware$2d$edge$5d$__$28$ecmascript$29$__["NextResponse"].next();
     }
+    // ✅ Subdomain detection
+    const subdomain = getSubdomainFromHost(host);
     // ==========================================
-    // STORE FRONTEND (subdomain présent)
+    // STORE FRONTEND (subdomain present)
     // ==========================================
-    if (subdomain && !pathname.startsWith('/dashboard') && !pathname.startsWith('/admin')) {
-        // Rediriger vers la page store
-        return __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$website$2f$ecomerceWebsite$2f$node_modules$2f$next$2f$dist$2f$esm$2f$server$2f$web$2f$exports$2f$index$2e$js__$5b$middleware$2d$edge$5d$__$28$ecmascript$29$__["NextResponse"].rewrite(new URL(`/store/${subdomain}${pathname}`, request.url));
+    // Any request on zaza.lvh.me:3000/.... -> /storefront/zaza/....
+    if (subdomain && !pathname.startsWith("/dashboard") && !pathname.startsWith("/admin")) {
+        const url = request.nextUrl.clone();
+        url.pathname = `/storefront/${subdomain}${pathname === "/" ? "" : pathname}`;
+        return __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$website$2f$ecomerceWebsite$2f$node_modules$2f$next$2f$dist$2f$esm$2f$server$2f$web$2f$exports$2f$index$2e$js__$5b$middleware$2d$edge$5d$__$28$ecmascript$29$__["NextResponse"].rewrite(url);
     }
     // ==========================================
-    // PROTECTION DES ROUTES DASHBOARD
+    // PROTECT DASHBOARD / ADMIN
     // ==========================================
-    if (pathname.startsWith('/dashboard') || pathname.startsWith('/admin')) {
-        // Vérifier si l'utilisateur est authentifié
+    if (pathname.startsWith("/dashboard") || pathname.startsWith("/admin")) {
         if (!token) {
-            const loginUrl = new URL('/login', request.url);
-            loginUrl.searchParams.set('callbackUrl', pathname);
+            const loginUrl = new URL("/login", request.url);
+            loginUrl.searchParams.set("callbackUrl", pathname);
             return __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$website$2f$ecomerceWebsite$2f$node_modules$2f$next$2f$dist$2f$esm$2f$server$2f$web$2f$exports$2f$index$2e$js__$5b$middleware$2d$edge$5d$__$28$ecmascript$29$__["NextResponse"].redirect(loginUrl);
         }
-        // SUPER ADMIN routes
-        if (pathname.startsWith('/admin')) {
-            if (token.role !== 'SUPER_ADMIN') {
-                return __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$website$2f$ecomerceWebsite$2f$node_modules$2f$next$2f$dist$2f$esm$2f$server$2f$web$2f$exports$2f$index$2e$js__$5b$middleware$2d$edge$5d$__$28$ecmascript$29$__["NextResponse"].redirect(new URL('/dashboard', request.url));
-            }
+        // admin only
+        if (pathname.startsWith("/admin") && token.role !== "SUPER_ADMIN") {
+            return __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$website$2f$ecomerceWebsite$2f$node_modules$2f$next$2f$dist$2f$esm$2f$server$2f$web$2f$exports$2f$index$2e$js__$5b$middleware$2d$edge$5d$__$28$ecmascript$29$__["NextResponse"].redirect(new URL("/dashboard", request.url));
         }
-        // TENANT ADMIN/USER routes
-        if (pathname.startsWith('/dashboard')) {
-            if (token.role === 'CUSTOMER') {
-                return __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$website$2f$ecomerceWebsite$2f$node_modules$2f$next$2f$dist$2f$esm$2f$server$2f$web$2f$exports$2f$index$2e$js__$5b$middleware$2d$edge$5d$__$28$ecmascript$29$__["NextResponse"].redirect(new URL('/', request.url));
-            }
+        // tenant dashboard: block CUSTOMER
+        if (pathname.startsWith("/dashboard") && token.role === "CUSTOMER") {
+            return __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$website$2f$ecomerceWebsite$2f$node_modules$2f$next$2f$dist$2f$esm$2f$server$2f$web$2f$exports$2f$index$2e$js__$5b$middleware$2d$edge$5d$__$28$ecmascript$29$__["NextResponse"].redirect(new URL("/", request.url));
         }
     }
     return __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$website$2f$ecomerceWebsite$2f$node_modules$2f$next$2f$dist$2f$esm$2f$server$2f$web$2f$exports$2f$index$2e$js__$5b$middleware$2d$edge$5d$__$28$ecmascript$29$__["NextResponse"].next();
 }
 const config = {
     matcher: [
-        /*
-     * Match all request paths except for the ones starting with:
-     * - _next/static (static files)
-     * - _next/image (image optimization files)
-     * - favicon.ico (favicon file)
-     * - public (public files)
-     */ '/((?!_next/static|_next/image|favicon.ico|public).*)'
+        "/((?!_next/static|_next/image|favicon.ico).*)"
     ]
 };
 }),

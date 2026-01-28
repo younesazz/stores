@@ -1,0 +1,10 @@
+var R=require("../../../chunks/[turbopack]_runtime.js")("server/app/api/products/route.js")
+R.c("server/chunks/6cb9e_next_45572d53._.js")
+R.c("server/chunks/6cb9e_next-auth_e43a5cf6._.js")
+R.c("server/chunks/6cb9e_openid-client_58ec7045._.js")
+R.c("server/chunks/6cb9e_jose_dist_node_cjs_bee9bb9c._.js")
+R.c("server/chunks/[root-of-the-server]__7f135422._.js")
+R.c("server/chunks/[root-of-the-server]__60ccb5b4._.js")
+R.c("server/chunks/47011_ecomerceWebsite__next-internal_server_app_api_products_route_actions_0331f921.js")
+R.m("[project]/Desktop/website/ecomerceWebsite/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/Desktop/website/ecomerceWebsite/app/api/products/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)")
+module.exports=R.m("[project]/Desktop/website/ecomerceWebsite/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/Desktop/website/ecomerceWebsite/app/api/products/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)").exports

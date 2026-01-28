@@ -1,0 +1,40 @@
+export type Lang = "en" | "fr" | "ar"
+
+export const dict: Record<Lang, Record<string, string>> = {
+  en: {
+    login: "Login",
+    signup: "Sign up",
+    email: "Email",
+    password: "Password",
+    dashboard: "Dashboard",
+    orders: "Orders",
+    revenue: "Revenue",
+    logout: "Logout",
+    profile: "Profile",
+    settings: "Settings",
+  },
+  fr: {
+    login: "Connexion",
+    signup: "Créer un compte",
+    email: "Email",
+    password: "Mot de passe",
+    dashboard: "Tableau de bord",
+    orders: "Commandes",
+    revenue: "Revenu",
+    logout: "Déconnexion",
+    profile: "Profil",
+    settings: "Paramètres",
+  },
+  ar: {
+    login: "تسجيل الدخول",
+    signup: "إنشاء حساب",
+    email: "البريد الإلكتروني",
+    password: "كلمة المرور",
+    dashboard: "لوحة التحكم",
+    orders: "الطلبات",
+    revenue: "الإيرادات",
+    logout: "تسجيل الخروج",
+    profile: "الملف الشخصي",
+    settings: "الإعدادات",
+  },
+}

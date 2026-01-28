@@ -1,23 +1,16 @@
-import type { Metadata } from "next"
-import { Inter } from "next/font/google"
 import "./globals.css"
+import { ToastProvider } from "@/components/ui/toaster"
+import { LangProvider } from "@/lib/lang-store"
 
-const inter = Inter({ subsets: ["latin"] })
-
-export const metadata: Metadata = {
-  title: "FlexDZ - Plateforme E-Commerce Multi-Tenant",
-  description: "Créez votre boutique en ligne en quelques minutes",
-}
-
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="ar" dir="rtl">
-      <body className={inter.className}>
-        {children}
+    <html suppressHydrationWarning>
+      <body className="bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-white transition-colors">
+        <LangProvider>
+          <ToastProvider>
+            {children}
+          </ToastProvider>
+        </LangProvider>
       </body>
     </html>
   )

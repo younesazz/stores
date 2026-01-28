@@ -1,0 +1,3 @@
+{
+  "/storefront/[subdomain]/page": "app/storefront/[subdomain]/page.js"
+}

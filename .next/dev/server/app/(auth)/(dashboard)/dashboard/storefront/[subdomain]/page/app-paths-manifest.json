@@ -1,0 +1,3 @@
+{
+  "/(auth)/(dashboard)/dashboard/storefront/[subdomain]/page": "app/(auth)/(dashboard)/dashboard/storefront/[subdomain]/page.js"
+}

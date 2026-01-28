@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///Users/hamaniyounes/Desktop/website/ecomerceWebsite/lib/prisma.ts"],"sourcesContent":["// lib/prisma.ts\nimport { PrismaClient } from \"@prisma/client\"\n\nconst globalForPrisma = global as unknown as {\n  prisma: PrismaClient | undefined\n}\n\nexport const prisma =\n  globalForPrisma.prisma ??\n  new PrismaClient({\n    log: [\"query\", \"error\", \"warn\"],\n  })\n\nif (process.env.NODE_ENV !== \"production\") {\n  globalForPrisma.prisma = prisma\n}\n"],"names":[],"mappings":";;;;AAAA,gBAAgB;AAChB;;AAEA,MAAM;AAIC,MAAM,SACX,gBAAgB,MAAM,IACtB,IAAI,+OAAY,CAAC;IACf,KAAK;QAAC;QAAS;QAAS;KAAO;AACjC;AAEF,wCAA2C;IACzC,gBAAgB,MAAM,GAAG;AAC3B"}}]
+}

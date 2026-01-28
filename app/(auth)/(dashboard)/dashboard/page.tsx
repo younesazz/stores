@@ -4,6 +4,7 @@ import { prisma } from "@/lib/prisma"
 import { formatPrice } from "@/lib/utils"
 import { ShoppingBag, Package, DollarSign, Store } from "lucide-react"
 import { Key, ReactElement, JSXElementConstructor, ReactNode, ReactPortal } from "react"
+import DashboardClient from "@/components/dashboard/DashboardClient"
 
 async function getDashboardStats(tenantId: string) {
   const [stores, products, orders, totalRevenue] = await Promise.all([
@@ -186,6 +187,7 @@ export default async function DashboardPage() {
           )}
         </div>
       </div>
+      
     </div>
   )
 }

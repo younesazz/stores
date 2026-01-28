@@ -1,8 +1,16 @@
 {
   "/(auth)/(dashboard)/dashboard/page": "app/(auth)/(dashboard)/dashboard/page.js",
+  "/(auth)/(dashboard)/dashboard/products/new/page": "app/(auth)/(dashboard)/dashboard/products/new/page.js",
+  "/(auth)/(dashboard)/dashboard/products/page": "app/(auth)/(dashboard)/dashboard/products/page.js",
+  "/(auth)/(dashboard)/dashboard/storefront/[subdomain]/page": "app/(auth)/(dashboard)/dashboard/storefront/[subdomain]/page.js",
+  "/(auth)/(dashboard)/dashboard/stores/[subdomain]/page": "app/(auth)/(dashboard)/dashboard/stores/[subdomain]/page.js",
+  "/(auth)/(dashboard)/dashboard/stores/page": "app/(auth)/(dashboard)/dashboard/stores/page.js",
   "/(auth)/login/page": "app/(auth)/login/page.js",
-  "/(auth)/signup/page": "app/(auth)/signup/page.js",
   "/_not-found/page": "app/_not-found/page.js",
   "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
-  "/api/register/route": "app/api/register/route.js"
+  "/api/products/route": "app/api/products/route.js",
+  "/api/stores/route": "app/api/stores/route.js",
+  "/page": "app/page.js",
+  "/storefront/[subdomain]/[slug]/page": "app/storefront/[subdomain]/[slug]/page.js",
+  "/storefront/[subdomain]/page": "app/storefront/[subdomain]/page.js"
 }

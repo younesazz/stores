@@ -165,20 +165,20 @@ function StatCard({ title, value, description, Icon, iconClassName }) {
                         children: title
                     }, void 0, false, {
                         fileName: "[project]/Desktop/website/ecomerceWebsite/app/(auth)/(dashboard)/dashboard/page.tsx",
-                        lineNumber: 55,
+                        lineNumber: 56,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$website$2f$ecomerceWebsite$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(Icon, {
                         className: `h-5 w-5 ${iconClassName ?? "text-slate-700"}`
                     }, void 0, false, {
                         fileName: "[project]/Desktop/website/ecomerceWebsite/app/(auth)/(dashboard)/dashboard/page.tsx",
-                        lineNumber: 56,
+                        lineNumber: 57,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Desktop/website/ecomerceWebsite/app/(auth)/(dashboard)/dashboard/page.tsx",
-                lineNumber: 54,
+                lineNumber: 55,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$website$2f$ecomerceWebsite$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -189,7 +189,7 @@ function StatCard({ title, value, description, Icon, iconClassName }) {
                         children: value
                     }, void 0, false, {
                         fileName: "[project]/Desktop/website/ecomerceWebsite/app/(auth)/(dashboard)/dashboard/page.tsx",
-                        lineNumber: 59,
+                        lineNumber: 60,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$website$2f$ecomerceWebsite$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -197,19 +197,19 @@ function StatCard({ title, value, description, Icon, iconClassName }) {
                         children: description
                     }, void 0, false, {
                         fileName: "[project]/Desktop/website/ecomerceWebsite/app/(auth)/(dashboard)/dashboard/page.tsx",
-                        lineNumber: 60,
+                        lineNumber: 61,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Desktop/website/ecomerceWebsite/app/(auth)/(dashboard)/dashboard/page.tsx",
-                lineNumber: 58,
+                lineNumber: 59,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Desktop/website/ecomerceWebsite/app/(auth)/(dashboard)/dashboard/page.tsx",
-        lineNumber: 53,
+        lineNumber: 54,
         columnNumber: 5
     }, this);
 }
@@ -220,7 +220,7 @@ function StatusPill({ status }) {
         children: status
     }, void 0, false, {
         fileName: "[project]/Desktop/website/ecomerceWebsite/app/(auth)/(dashboard)/dashboard/page.tsx",
-        lineNumber: 75,
+        lineNumber: 76,
         columnNumber: 5
     }, this);
 }
@@ -232,7 +232,7 @@ async function DashboardPage() {
             children: "Erreur: Tenant non trouvé"
         }, void 0, false, {
             fileName: "[project]/Desktop/website/ecomerceWebsite/app/(auth)/(dashboard)/dashboard/page.tsx",
-            lineNumber: 86,
+            lineNumber: 87,
             columnNumber: 7
         }, this);
     }
@@ -278,7 +278,7 @@ async function DashboardPage() {
                         children: "Tableau de bord"
                     }, void 0, false, {
                         fileName: "[project]/Desktop/website/ecomerceWebsite/app/(auth)/(dashboard)/dashboard/page.tsx",
-                        lineNumber: 130,
+                        lineNumber: 131,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$website$2f$ecomerceWebsite$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -290,13 +290,13 @@ async function DashboardPage() {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Desktop/website/ecomerceWebsite/app/(auth)/(dashboard)/dashboard/page.tsx",
-                        lineNumber: 131,
+                        lineNumber: 132,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Desktop/website/ecomerceWebsite/app/(auth)/(dashboard)/dashboard/page.tsx",
-                lineNumber: 129,
+                lineNumber: 130,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$website$2f$ecomerceWebsite$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -309,12 +309,12 @@ async function DashboardPage() {
                         iconClassName: s.iconClassName
                     }, s.title, false, {
                         fileName: "[project]/Desktop/website/ecomerceWebsite/app/(auth)/(dashboard)/dashboard/page.tsx",
-                        lineNumber: 139,
+                        lineNumber: 140,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/Desktop/website/ecomerceWebsite/app/(auth)/(dashboard)/dashboard/page.tsx",
-                lineNumber: 137,
+                lineNumber: 138,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$website$2f$ecomerceWebsite$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -327,12 +327,12 @@ async function DashboardPage() {
                             children: "Commandes récentes"
                         }, void 0, false, {
                             fileName: "[project]/Desktop/website/ecomerceWebsite/app/(auth)/(dashboard)/dashboard/page.tsx",
-                            lineNumber: 153,
+                            lineNumber: 154,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/Desktop/website/ecomerceWebsite/app/(auth)/(dashboard)/dashboard/page.tsx",
-                        lineNumber: 152,
+                        lineNumber: 153,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$website$2f$ecomerceWebsite$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -344,20 +344,20 @@ async function DashboardPage() {
                                     className: "mx-auto mb-4 h-12 w-12 opacity-50"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/website/ecomerceWebsite/app/(auth)/(dashboard)/dashboard/page.tsx",
-                                    lineNumber: 159,
+                                    lineNumber: 160,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$website$2f$ecomerceWebsite$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     children: "Aucune commande pour le moment"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/website/ecomerceWebsite/app/(auth)/(dashboard)/dashboard/page.tsx",
-                                    lineNumber: 160,
+                                    lineNumber: 161,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Desktop/website/ecomerceWebsite/app/(auth)/(dashboard)/dashboard/page.tsx",
-                            lineNumber: 158,
+                            lineNumber: 159,
                             columnNumber: 13
                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$website$2f$ecomerceWebsite$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "space-y-3",
@@ -372,7 +372,7 @@ async function DashboardPage() {
                                                     children: order.orderNumber
                                                 }, void 0, false, {
                                                     fileName: "[project]/Desktop/website/ecomerceWebsite/app/(auth)/(dashboard)/dashboard/page.tsx",
-                                                    lineNumber: 170,
+                                                    lineNumber: 171,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$website$2f$ecomerceWebsite$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -384,7 +384,7 @@ async function DashboardPage() {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Desktop/website/ecomerceWebsite/app/(auth)/(dashboard)/dashboard/page.tsx",
-                                                    lineNumber: 171,
+                                                    lineNumber: 172,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$website$2f$ecomerceWebsite$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -392,13 +392,13 @@ async function DashboardPage() {
                                                     children: new Date(order.createdAt).toLocaleDateString("fr-FR")
                                                 }, void 0, false, {
                                                     fileName: "[project]/Desktop/website/ecomerceWebsite/app/(auth)/(dashboard)/dashboard/page.tsx",
-                                                    lineNumber: 174,
+                                                    lineNumber: 175,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Desktop/website/ecomerceWebsite/app/(auth)/(dashboard)/dashboard/page.tsx",
-                                            lineNumber: 169,
+                                            lineNumber: 170,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$website$2f$ecomerceWebsite$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -409,48 +409,48 @@ async function DashboardPage() {
                                                     children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$website$2f$ecomerceWebsite$2f$lib$2f$utils$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["formatPrice"])(order.total)
                                                 }, void 0, false, {
                                                     fileName: "[project]/Desktop/website/ecomerceWebsite/app/(auth)/(dashboard)/dashboard/page.tsx",
-                                                    lineNumber: 180,
+                                                    lineNumber: 181,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$website$2f$ecomerceWebsite$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(StatusPill, {
                                                     status: order.orderStatus
                                                 }, void 0, false, {
                                                     fileName: "[project]/Desktop/website/ecomerceWebsite/app/(auth)/(dashboard)/dashboard/page.tsx",
-                                                    lineNumber: 181,
+                                                    lineNumber: 182,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Desktop/website/ecomerceWebsite/app/(auth)/(dashboard)/dashboard/page.tsx",
-                                            lineNumber: 179,
+                                            lineNumber: 180,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, order.id, true, {
                                     fileName: "[project]/Desktop/website/ecomerceWebsite/app/(auth)/(dashboard)/dashboard/page.tsx",
-                                    lineNumber: 165,
+                                    lineNumber: 166,
                                     columnNumber: 17
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/Desktop/website/ecomerceWebsite/app/(auth)/(dashboard)/dashboard/page.tsx",
-                            lineNumber: 163,
+                            lineNumber: 164,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/Desktop/website/ecomerceWebsite/app/(auth)/(dashboard)/dashboard/page.tsx",
-                        lineNumber: 156,
+                        lineNumber: 157,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Desktop/website/ecomerceWebsite/app/(auth)/(dashboard)/dashboard/page.tsx",
-                lineNumber: 151,
+                lineNumber: 152,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Desktop/website/ecomerceWebsite/app/(auth)/(dashboard)/dashboard/page.tsx",
-        lineNumber: 127,
+        lineNumber: 128,
         columnNumber: 5
     }, this);
 }

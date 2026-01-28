@@ -1,10 +1,10 @@
 "use client"
 
-import { useMemo, useState } from "react"
+import { useEffect, useMemo, useState } from "react"
 import { useRouter } from "next/navigation"
 import Link from "next/link"
-
-type ToastVariant = "success" | "error"
+import { motion } from "framer-motion"
+import { useToast } from "@/components/ui/toaster"
 
 function slugify(input: string) {
   return input
@@ -16,10 +16,18 @@ function slugify(input: string) {
     .slice(0, 20)
 }
 
+function isValidEmail(v: string) {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v)
+}
+
 export default function SignUpPage() {
   const router = useRouter()
+  const { toast } = useToast()
 
   const [isLoading, setIsLoading] = useState(false)
+  const [showPassword, setShowPassword] = useState(false)
+  const [showConfirm, setShowConfirm] = useState(false)
+
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
@@ -32,20 +40,10 @@ export default function SignUpPage() {
   })
   const [errors, setErrors] = useState<Record<string, string>>({})
 
-  // ✅ simple toast (no UI libs)
-  const [toast, setToast] = useState<{
-    open: boolean
-    variant: ToastVariant
-    title: string
-    description?: string
-  }>({ open: false, variant: "success", title: "" })
-
-  const closeToast = () => setToast((t) => ({ ...t, open: false }))
-  const showToast = (payload: Omit<typeof toast, "open">) => {
-    setToast({ open: true, ...payload })
-    window.clearTimeout((showToast as any)._t)
-    ;(showToast as any)._t = window.setTimeout(() => closeToast(), 3500)
-  }
+  // ⌨️ ESC closes toasts (toaster already supports ESC globally)
+  useEffect(() => {
+    // nothing needed here; toaster handles ESC globally
+  }, [])
 
   const previewUrl = useMemo(() => {
     const sub = formData.subdomain || "votre-sous-domaine"
@@ -57,18 +55,11 @@ export default function SignUpPage() {
 
     setFormData((prev) => {
       const next = { ...prev, [name]: value }
-
-      // Auto-generate subdomain from tenantName if subdomain empty
-      if (name === "tenantName" && !prev.subdomain) {
-        next.subdomain = slugify(value)
-      }
-
+      if (name === "tenantName" && !prev.subdomain) next.subdomain = slugify(value)
       return next
     })
 
-    if (errors[name]) {
-      setErrors((prev) => ({ ...prev, [name]: "" }))
-    }
+    if (errors[name]) setErrors((prev) => ({ ...prev, [name]: "" }))
   }
 
   const validateForm = () => {
@@ -76,7 +67,10 @@ export default function SignUpPage() {
 
     if (!formData.firstName) newErrors.firstName = "Prénom requis"
     if (!formData.lastName) newErrors.lastName = "Nom requis"
+
     if (!formData.email) newErrors.email = "Email requis"
+    else if (!isValidEmail(formData.email)) newErrors.email = "Email invalide"
+
     if (!formData.phone) newErrors.phone = "Téléphone requis"
 
     if (!formData.password) newErrors.password = "Mot de passe requis"
@@ -99,7 +93,14 @@ export default function SignUpPage() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    if (!validateForm()) return
+    if (!validateForm()) {
+      toast({
+        variant: "error",
+        title: "Erreur",
+        description: "Veuillez corriger les champs en rouge.",
+      })
+      return
+    }
 
     setIsLoading(true)
 
@@ -120,19 +121,17 @@ export default function SignUpPage() {
 
       const json = await res.json()
 
-      if (!res.ok) {
-        throw new Error(json?.error || "Erreur lors de l'inscription")
-      }
+      if (!res.ok) throw new Error(json?.error || "Erreur lors de l'inscription")
 
-      showToast({
+      toast({
         variant: "success",
         title: "Compte créé avec succès !",
-        description: `Votre sous-domaine: ${json?.data?.subdomain ?? formData.subdomain}.flexdz.com`,
+        description: `Votre sous-domaine: ${(json?.data?.subdomain ?? formData.subdomain)}.flexdz.com`,
       })
 
       router.push("/login?registered=true")
     } catch (err: any) {
-      showToast({
+      toast({
         variant: "error",
         title: "Erreur",
         description: err?.message || "Une erreur est survenue",
@@ -143,53 +142,21 @@ export default function SignUpPage() {
   }
 
   const inputBase =
-    "w-full rounded-xl border bg-white px-3 py-2 text-sm outline-none transition focus:ring-2"
-  const inputOk = `${inputBase} border-slate-200 focus:ring-slate-300`
-  const inputErr = `${inputBase} border-red-500 focus:ring-red-200`
+    "w-full rounded-xl border bg-white dark:bg-slate-900 px-3 py-2 text-sm outline-none transition focus:ring-2"
+  const inputOk = `${inputBase} border-slate-200 dark:border-slate-800 focus:ring-slate-300 dark:focus:ring-slate-700`
+  const inputErr = `${inputBase} border-red-500 focus:ring-red-200 dark:focus:ring-red-900`
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-50 to-slate-100 p-4">
-      {/* Toast */}
-      {toast.open && (
-        <div className="fixed top-4 right-4 z-50 w-[92vw] max-w-sm">
-          <div
-            className={[
-              "rounded-2xl border p-4 shadow-lg bg-white",
-              toast.variant === "success" ? "border-emerald-200" : "border-red-200",
-            ].join(" ")}
-            role="status"
-          >
-            <div className="flex items-start justify-between gap-3">
-              <div>
-                <p
-                  className={[
-                    "text-sm font-semibold",
-                    toast.variant === "success" ? "text-emerald-700" : "text-red-700",
-                  ].join(" ")}
-                >
-                  {toast.title}
-                </p>
-                {toast.description && (
-                  <p className="mt-1 text-sm text-slate-600">{toast.description}</p>
-                )}
-              </div>
-              <button
-                type="button"
-                onClick={closeToast}
-                className="rounded-lg px-2 py-1 text-sm text-slate-500 hover:bg-slate-100"
-                aria-label="Close"
-              >
-                ✕
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
-
-      <div className="w-full max-w-2xl rounded-3xl border border-slate-200 bg-white shadow-sm">
+    <motion.div
+      initial={{ opacity: 0, y: 10 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.25 }}
+      className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-950 dark:to-slate-900 p-4"
+    >
+      <div className="w-full max-w-2xl rounded-3xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 shadow-sm">
         <div className="p-6 md:p-8">
           <h1 className="text-3xl font-bold text-center">Créer votre boutique</h1>
-          <p className="mt-2 text-center text-slate-600">
+          <p className="mt-2 text-center text-slate-600 dark:text-slate-300">
             Commencez à vendre en ligne en quelques minutes
           </p>
 
@@ -197,7 +164,7 @@ export default function SignUpPage() {
             {/* Infos personnelles */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="space-y-2">
-                <label htmlFor="firstName" className="text-sm font-medium text-slate-700">
+                <label htmlFor="firstName" className="text-sm font-medium text-slate-700 dark:text-slate-200">
                   Prénom *
                 </label>
                 <input
@@ -208,11 +175,11 @@ export default function SignUpPage() {
                   onChange={handleChange}
                   className={errors.firstName ? inputErr : inputOk}
                 />
-                {errors.firstName && <p className="text-sm text-red-600">{errors.firstName}</p>}
+                {errors.firstName && <p className="text-sm text-red-600 dark:text-red-300">{errors.firstName}</p>}
               </div>
 
               <div className="space-y-2">
-                <label htmlFor="lastName" className="text-sm font-medium text-slate-700">
+                <label htmlFor="lastName" className="text-sm font-medium text-slate-700 dark:text-slate-200">
                   Nom *
                 </label>
                 <input
@@ -223,12 +190,12 @@ export default function SignUpPage() {
                   onChange={handleChange}
                   className={errors.lastName ? inputErr : inputOk}
                 />
-                {errors.lastName && <p className="text-sm text-red-600">{errors.lastName}</p>}
+                {errors.lastName && <p className="text-sm text-red-600 dark:text-red-300">{errors.lastName}</p>}
               </div>
             </div>
 
             <div className="space-y-2">
-              <label htmlFor="email" className="text-sm font-medium text-slate-700">
+              <label htmlFor="email" className="text-sm font-medium text-slate-700 dark:text-slate-200">
                 Email *
               </label>
               <input
@@ -240,11 +207,11 @@ export default function SignUpPage() {
                 onChange={handleChange}
                 className={errors.email ? inputErr : inputOk}
               />
-              {errors.email && <p className="text-sm text-red-600">{errors.email}</p>}
+              {errors.email && <p className="text-sm text-red-600 dark:text-red-300">{errors.email}</p>}
             </div>
 
             <div className="space-y-2">
-              <label htmlFor="phone" className="text-sm font-medium text-slate-700">
+              <label htmlFor="phone" className="text-sm font-medium text-slate-700 dark:text-slate-200">
                 Téléphone *
               </label>
               <input
@@ -256,52 +223,72 @@ export default function SignUpPage() {
                 onChange={handleChange}
                 className={errors.phone ? inputErr : inputOk}
               />
-              {errors.phone && <p className="text-sm text-red-600">{errors.phone}</p>}
+              {errors.phone && <p className="text-sm text-red-600 dark:text-red-300">{errors.phone}</p>}
             </div>
 
             {/* Mot de passe */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="space-y-2">
-                <label htmlFor="password" className="text-sm font-medium text-slate-700">
+                <label htmlFor="password" className="text-sm font-medium text-slate-700 dark:text-slate-200">
                   Mot de passe *
                 </label>
-                <input
-                  id="password"
-                  name="password"
-                  type="password"
-                  value={formData.password}
-                  onChange={handleChange}
-                  className={errors.password ? inputErr : inputOk}
-                />
-                {errors.password && <p className="text-sm text-red-600">{errors.password}</p>}
+                <div className="relative">
+                  <input
+                    id="password"
+                    name="password"
+                    type={showPassword ? "text" : "password"}
+                    value={formData.password}
+                    onChange={handleChange}
+                    className={(errors.password ? inputErr : inputOk) + " pr-12"}
+                  />
+                  <button
+                    type="button"
+                    onClick={() => setShowPassword((v) => !v)}
+                    className="absolute right-3 top-1/2 -translate-y-1/2 rounded-lg px-2 py-1 text-sm text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-800"
+                    aria-label={showPassword ? "Hide password" : "Show password"}
+                  >
+                    {showPassword ? "🙈" : "👁️"}
+                  </button>
+                </div>
+                {errors.password && <p className="text-sm text-red-600 dark:text-red-300">{errors.password}</p>}
               </div>
 
               <div className="space-y-2">
-                <label htmlFor="confirmPassword" className="text-sm font-medium text-slate-700">
+                <label htmlFor="confirmPassword" className="text-sm font-medium text-slate-700 dark:text-slate-200">
                   Confirmer *
                 </label>
-                <input
-                  id="confirmPassword"
-                  name="confirmPassword"
-                  type="password"
-                  value={formData.confirmPassword}
-                  onChange={handleChange}
-                  className={errors.confirmPassword ? inputErr : inputOk}
-                />
+                <div className="relative">
+                  <input
+                    id="confirmPassword"
+                    name="confirmPassword"
+                    type={showConfirm ? "text" : "password"}
+                    value={formData.confirmPassword}
+                    onChange={handleChange}
+                    className={(errors.confirmPassword ? inputErr : inputOk) + " pr-12"}
+                  />
+                  <button
+                    type="button"
+                    onClick={() => setShowConfirm((v) => !v)}
+                    className="absolute right-3 top-1/2 -translate-y-1/2 rounded-lg px-2 py-1 text-sm text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-800"
+                    aria-label={showConfirm ? "Hide password" : "Show password"}
+                  >
+                    {showConfirm ? "🙈" : "👁️"}
+                  </button>
+                </div>
                 {errors.confirmPassword && (
-                  <p className="text-sm text-red-600">{errors.confirmPassword}</p>
+                  <p className="text-sm text-red-600 dark:text-red-300">{errors.confirmPassword}</p>
                 )}
               </div>
             </div>
 
             {/* Infos boutique */}
-            <div className="mt-4 border-t border-slate-200 pt-6">
-              <h3 className="font-semibold text-slate-900 mb-4">
+            <div className="mt-4 border-t border-slate-200 dark:border-slate-800 pt-6">
+              <h3 className="font-semibold text-slate-900 dark:text-slate-100 mb-4">
                 Informations de votre boutique
               </h3>
 
               <div className="space-y-2">
-                <label htmlFor="tenantName" className="text-sm font-medium text-slate-700">
+                <label htmlFor="tenantName" className="text-sm font-medium text-slate-700 dark:text-slate-200">
                   Nom de l'entreprise *
                 </label>
                 <input
@@ -313,11 +300,11 @@ export default function SignUpPage() {
                   onChange={handleChange}
                   className={errors.tenantName ? inputErr : inputOk}
                 />
-                {errors.tenantName && <p className="text-sm text-red-600">{errors.tenantName}</p>}
+                {errors.tenantName && <p className="text-sm text-red-600 dark:text-red-300">{errors.tenantName}</p>}
               </div>
 
               <div className="space-y-2 mt-4">
-                <label htmlFor="subdomain" className="text-sm font-medium text-slate-700">
+                <label htmlFor="subdomain" className="text-sm font-medium text-slate-700 dark:text-slate-200">
                   Sous-domaine *
                 </label>
 
@@ -335,10 +322,11 @@ export default function SignUpPage() {
                 </div>
 
                 {errors.subdomain ? (
-                  <p className="text-sm text-red-600">{errors.subdomain}</p>
+                  <p className="text-sm text-red-600 dark:text-red-300">{errors.subdomain}</p>
                 ) : (
                   <p className="text-sm text-slate-500">
-                    Votre boutique sera accessible sur: <span className="font-medium">{previewUrl}</span>
+                    Votre boutique sera accessible sur:{" "}
+                    <span className="font-medium">{previewUrl}</span>
                   </p>
                 )}
               </div>
@@ -347,22 +335,25 @@ export default function SignUpPage() {
             <button
               type="submit"
               disabled={isLoading}
-              className="w-full rounded-xl bg-slate-900 px-4 py-3 text-sm font-semibold text-white transition hover:bg-slate-800 disabled:opacity-60 disabled:cursor-not-allowed"
+              className="w-full inline-flex items-center justify-center gap-2 rounded-xl bg-slate-900 px-4 py-3 text-sm font-semibold text-white transition hover:bg-slate-800 disabled:opacity-60 disabled:cursor-not-allowed"
             >
+              {isLoading && (
+                <span className="h-4 w-4 animate-spin rounded-full border-2 border-white border-t-transparent" />
+              )}
               {isLoading ? "Création en cours..." : "Créer mon compte"}
             </button>
           </form>
 
           <div className="mt-6 flex justify-center">
-            <p className="text-sm text-slate-600">
+            <p className="text-sm text-slate-600 dark:text-slate-300">
               Vous avez déjà un compte ?{" "}
-              <Link href="/login" className="text-slate-900 hover:underline font-medium">
+              <Link href="/login" className="text-slate-900 dark:text-white hover:underline font-medium">
                 Se connecter
               </Link>
             </p>
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   )
 }
