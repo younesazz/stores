@@ -1,0 +1,888 @@
+[00:00:01.987] Server  WARN    ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:00:02.214] Server  LOG     ✓ Ready in 1699ms
+[00:00:02.633] Server  ERROR   ⨯ ./Desktop/website/ecomerceWebsite/app/layout.tsx:4:1
+Module not found: Can't resolve '@/components/ui/toaster'
+  2 | import { Inter } from "next/font/google"
+  3 | import "./globals.css"
+> 4 | import { Toaster } from "@/components/ui/toaster"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const inter = Inter({ subsets: ["latin"] })
+  7 |
+
+Import map: aliased to relative './components/ui/toaster' inside of [project]/Desktop/website/ecomerceWebsite
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:02.836] Server  ERROR   ⨯ ./Desktop/website/ecomerceWebsite/app/layout.tsx:4:1
+Module not found: Can't resolve '@/components/ui/toaster'
+  2 | import { Inter } from "next/font/google"
+  3 | import "./globals.css"
+> 4 | import { Toaster } from "@/components/ui/toaster"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const inter = Inter({ subsets: ["latin"] })
+  7 |
+
+Import map: aliased to relative './components/ui/toaster' inside of [project]/Desktop/website/ecomerceWebsite
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:03.359] Browser ERROR   uncaughtError: Error: ./Desktop/website/ecomerceWebsite/app/layout.tsx:4:1
+Module not found: Can't resolve '@/components/ui/toaster'
+  2 | import { Inter } from "next/font/google"
+  3 | import "./globals.css"
+> 4 | import { Toaster } from "@/components/ui/toaster"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const inter = Inter({ subsets: ["latin"] })
+  7 |
+
+Import map: aliased to relative './components/ui/toaster' inside of [project]/Desktop/website/ecomerceWebsite
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:03.532] Browser ERROR   ./Desktop/website/ecomerceWebsite/app/layout.tsx:4:1
+Module not found: Can't resolve '@/components/ui/toaster'
+  2 | import { Inter } from "next/font/google"
+  3 | import "./globals.css"
+> 4 | import { Toaster } from "@/components/ui/toaster"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const inter = Inter({ subsets: ["latin"] })
+  7 |
+
+Import map: aliased to relative './components/ui/toaster' inside of [project]/Desktop/website/ecomerceWebsite
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:03.532] Browser ERROR   ./Desktop/website/ecomerceWebsite/app/layout.tsx:4:1
+Module not found: Can't resolve '@/components/ui/toaster'
+  2 | import { Inter } from "next/font/google"
+  3 | import "./globals.css"
+> 4 | import { Toaster } from "@/components/ui/toaster"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const inter = Inter({ subsets: ["latin"] })
+  7 |
+
+Import map: aliased to relative './components/ui/toaster' inside of [project]/Desktop/website/ecomerceWebsite
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:26.191] Browser ERROR   ./Desktop/website/ecomerceWebsite/app/layout.tsx:4:1
+Module not found: Can't resolve '@/components/ui/toaster'
+  2 | import { Inter } from "next/font/google"
+  3 | import "./globals.css"
+> 4 | import { Toaster } from "@/components/ui/toaster"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const inter = Inter({ subsets: ["latin"] })
+  7 |
+
+Import map: aliased to relative './components/ui/toaster' inside of [project]/Desktop/website/ecomerceWebsite
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:27.713] Server  ERROR   ⨯ ./Desktop/website/ecomerceWebsite/app/layout.tsx:4:1
+Module not found: Can't resolve '@/components/ui/toaster'
+  2 | import { Inter } from "next/font/google"
+  3 | import "./globals.css"
+> 4 | import { Toaster } from "@/components/ui/toaster"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const inter = Inter({ subsets: ["latin"] })
+  7 |
+
+Import map: aliased to relative './components/ui/toaster' inside of [project]/Desktop/website/ecomerceWebsite
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:28.097] Browser ERROR   uncaughtError: Error: ./Desktop/website/ecomerceWebsite/app/layout.tsx:4:1
+Module not found: Can't resolve '@/components/ui/toaster'
+  2 | import { Inter } from "next/font/google"
+  3 | import "./globals.css"
+> 4 | import { Toaster } from "@/components/ui/toaster"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const inter = Inter({ subsets: ["latin"] })
+  7 |
+
+Import map: aliased to relative './components/ui/toaster' inside of [project]/Desktop/website/ecomerceWebsite
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:28.271] Browser ERROR   ./Desktop/website/ecomerceWebsite/app/layout.tsx:4:1
+Module not found: Can't resolve '@/components/ui/toaster'
+  2 | import { Inter } from "next/font/google"
+  3 | import "./globals.css"
+> 4 | import { Toaster } from "@/components/ui/toaster"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const inter = Inter({ subsets: ["latin"] })
+  7 |
+
+Import map: aliased to relative './components/ui/toaster' inside of [project]/Desktop/website/ecomerceWebsite
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:28.271] Browser ERROR   ./Desktop/website/ecomerceWebsite/app/layout.tsx:4:1
+Module not found: Can't resolve '@/components/ui/toaster'
+  2 | import { Inter } from "next/font/google"
+  3 | import "./globals.css"
+> 4 | import { Toaster } from "@/components/ui/toaster"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const inter = Inter({ subsets: ["latin"] })
+  7 |
+
+Import map: aliased to relative './components/ui/toaster' inside of [project]/Desktop/website/ecomerceWebsite
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:39.188] Browser ERROR   ./Desktop/website/ecomerceWebsite/app/layout.tsx:4:1
+Module not found: Can't resolve '@/components/ui/toaster'
+  2 | import { Inter } from "next/font/google"
+  3 | import "./globals.css"
+> 4 | import { Toaster } from "@/components/ui/toaster"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const inter = Inter({ subsets: ["latin"] })
+  7 |
+
+Import map: aliased to relative './components/ui/toaster' inside of [project]/Desktop/website/ecomerceWebsite
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:26.189] Browser ERROR   ./Desktop/website/ecomerceWebsite/app/layout.tsx:4:1
+Module not found: Can't resolve '@/components/ui/toaster'
+  2 | import { Inter } from "next/font/google"
+  3 | import "./globals.css"
+> 4 | import { Toaster } from "@/components/ui/toaster"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const inter = Inter({ subsets: ["latin"] })
+  7 |
+
+Import map: aliased to relative './components/ui/toaster' inside of [project]/Desktop/website/ecomerceWebsite
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:28.323] Server  ERROR   ⨯ ./Desktop/website/ecomerceWebsite/app/layout.tsx:4:1
+Module not found: Can't resolve '@/components/ui/toaster'
+  2 | import { Inter } from "next/font/google"
+  3 | import "./globals.css"
+> 4 | import { Toaster } from "@/components/ui/toaster"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const inter = Inter({ subsets: ["latin"] })
+  7 |
+
+Import map: aliased to relative './components/ui/toaster' inside of [project]/Desktop/website/ecomerceWebsite
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:28.722] Browser ERROR   uncaughtError: Error: ./Desktop/website/ecomerceWebsite/app/layout.tsx:4:1
+Module not found: Can't resolve '@/components/ui/toaster'
+  2 | import { Inter } from "next/font/google"
+  3 | import "./globals.css"
+> 4 | import { Toaster } from "@/components/ui/toaster"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const inter = Inter({ subsets: ["latin"] })
+  7 |
+
+Import map: aliased to relative './components/ui/toaster' inside of [project]/Desktop/website/ecomerceWebsite
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:28.887] Browser ERROR   ./Desktop/website/ecomerceWebsite/app/layout.tsx:4:1
+Module not found: Can't resolve '@/components/ui/toaster'
+  2 | import { Inter } from "next/font/google"
+  3 | import "./globals.css"
+> 4 | import { Toaster } from "@/components/ui/toaster"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const inter = Inter({ subsets: ["latin"] })
+  7 |
+
+Import map: aliased to relative './components/ui/toaster' inside of [project]/Desktop/website/ecomerceWebsite
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:28.887] Browser ERROR   ./Desktop/website/ecomerceWebsite/app/layout.tsx:4:1
+Module not found: Can't resolve '@/components/ui/toaster'
+  2 | import { Inter } from "next/font/google"
+  3 | import "./globals.css"
+> 4 | import { Toaster } from "@/components/ui/toaster"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const inter = Inter({ subsets: ["latin"] })
+  7 |
+
+Import map: aliased to relative './components/ui/toaster' inside of [project]/Desktop/website/ecomerceWebsite
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:19.587] Server  LOG     ✓ Compiled in 97ms
+[00:02:20.788] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:21.201] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/login" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/w...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="fr"
+-                         data-arp=""
+                        >
+                          <body
+                            className="inter_5972bc34-module__OU16Qa__className"
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[00:02:43.679] Server  LOG     prisma:query "SELECT \"public\".\"User\".\"id\", \"public\".\"User\".\"email\", \"public\".\"User\".\"password\", \"public\".\"User\".\"firstName\", \"public\".\"User\".\"lastName\", \"public\".\"User\".\"phone\", \"public\".\"User\".\"role\"::text, \"public\".\"User\".\"emailVerified\", \"public\".\"User\".\"image\", \"public\".\"User\".\"tenantId\", \"public\".\"User\".\"createdAt\", \"public\".\"User\".\"updatedAt\" FROM \"public\".\"User\" WHERE (\"public\".\"User\".\"email\" = $1 AND 1=1) LIMIT $2 OFFSET $3"
+[00:02:43.931] Server  LOG     prisma:query "SELECT \"public\".\"Tenant\".\"id\", \"public\".\"Tenant\".\"name\", \"public\".\"Tenant\".\"subdomain\", \"public\".\"Tenant\".\"email\", \"public\".\"Tenant\".\"phone\", \"public\".\"Tenant\".\"status\"::text, \"public\".\"Tenant\".\"planId\", \"public\".\"Tenant\".\"trialEndsAt\", \"public\".\"Tenant\".\"createdAt\", \"public\".\"Tenant\".\"updatedAt\" FROM \"public\".\"Tenant\" WHERE (\"public\".\"Tenant\".\"subdomain\" = $1 AND 1=1) LIMIT $2 OFFSET $3"
+[00:02:44.327] Server  LOG     prisma:query "BEGIN"
+[00:02:44.596] Server  LOG     prisma:query "INSERT INTO \"public\".\"Tenant\" (\"id\",\"name\",\"subdomain\",\"email\",\"phone\",\"status\",\"trialEndsAt\",\"createdAt\",\"updatedAt\") VALUES ($1,$2,$3,$4,$5,CAST($6::text AS \"public\".\"TenantStatus\"),$7,$8,$9) RETURNING \"public\".\"Tenant\".\"id\", \"public\".\"Tenant\".\"name\", \"public\".\"Tenant\".\"subdomain\", \"public\".\"Tenant\".\"email\", \"public\".\"Tenant\".\"phone\", \"public\".\"Tenant\".\"status\"::text, \"public\".\"Tenant\".\"planId\", \"public\".\"Tenant\".\"trialEndsAt\", \"public\".\"Tenant\".\"createdAt\", \"public\".\"Tenant\".\"updatedAt\""
+[00:02:44.854] Server  LOG     prisma:query "INSERT INTO \"public\".\"User\" (\"id\",\"email\",\"password\",\"firstName\",\"lastName\",\"phone\",\"role\",\"tenantId\",\"createdAt\",\"updatedAt\") VALUES ($1,$2,$3,$4,$5,$6,CAST($7::text AS \"public\".\"UserRole\"),$8,$9,$10) RETURNING \"public\".\"User\".\"id\", \"public\".\"User\".\"email\", \"public\".\"User\".\"password\", \"public\".\"User\".\"firstName\", \"public\".\"User\".\"lastName\", \"public\".\"User\".\"phone\", \"public\".\"User\".\"role\"::text, \"public\".\"User\".\"emailVerified\", \"public\".\"User\".\"image\", \"public\".\"User\".\"tenantId\", \"public\".\"User\".\"createdAt\", \"public\".\"User\".\"updatedAt\""
+[00:02:45.252] Server  LOG     prisma:query "INSERT INTO \"public\".\"Store\" (\"id\",\"tenantId\",\"name\",\"subdomain\",\"description\",\"primaryColor\",\"secondaryColor\",\"accentColor\",\"fontFamily\",\"isActive\",\"currency\",\"taxRate\",\"createdAt\",\"updatedAt\") VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14) RETURNING \"public\".\"Store\".\"id\", \"public\".\"Store\".\"tenantId\", \"public\".\"Store\".\"name\", \"public\".\"Store\".\"subdomain\", \"public\".\"Store\".\"description\", \"public\".\"Store\".\"logo\", \"public\".\"Store\".\"favicon\", \"public\".\"Store\".\"primaryColor\", \"public\".\"Store\".\"secondaryColor\", \"public\".\"Store\".\"accentColor\", \"public\".\"Store\".\"fontFamily\", \"public\".\"Store\".\"isActive\", \"public\".\"Store\".\"currency\", \"public\".\"Store\".\"taxRate\", \"public\".\"Store\".\"metaTitle\", \"public\".\"Store\".\"metaDescription\", \"public\".\"Store\".\"createdAt\", \"public\".\"Store\".\"updatedAt\""
+[00:02:45.378] Server  LOG     prisma:query "COMMIT"
+[00:03:53.612] Server  LOG     prisma:query "SELECT 1"
+[00:03:53.802] Server  LOG     prisma:query "SELECT \"public\".\"User\".\"id\", \"public\".\"User\".\"email\", \"public\".\"User\".\"password\", \"public\".\"User\".\"firstName\", \"public\".\"User\".\"lastName\", \"public\".\"User\".\"phone\", \"public\".\"User\".\"role\"::text, \"public\".\"User\".\"emailVerified\", \"public\".\"User\".\"image\", \"public\".\"User\".\"tenantId\", \"public\".\"User\".\"createdAt\", \"public\".\"User\".\"updatedAt\" FROM \"public\".\"User\" WHERE (\"public\".\"User\".\"email\" = $1 AND 1=1) LIMIT $2 OFFSET $3"
+[00:03:54.058] Server  LOG     prisma:query "SELECT \"public\".\"Tenant\".\"id\", \"public\".\"Tenant\".\"name\", \"public\".\"Tenant\".\"subdomain\", \"public\".\"Tenant\".\"email\", \"public\".\"Tenant\".\"phone\", \"public\".\"Tenant\".\"status\"::text, \"public\".\"Tenant\".\"planId\", \"public\".\"Tenant\".\"trialEndsAt\", \"public\".\"Tenant\".\"createdAt\", \"public\".\"Tenant\".\"updatedAt\" FROM \"public\".\"Tenant\" WHERE \"public\".\"Tenant\".\"id\" IN ($1) OFFSET $2"
+[00:03:58.652] Server  LOG     prisma:query "SELECT \"public\".\"User\".\"id\", \"public\".\"User\".\"email\", \"public\".\"User\".\"password\", \"public\".\"User\".\"firstName\", \"public\".\"User\".\"lastName\", \"public\".\"User\".\"phone\", \"public\".\"User\".\"role\"::text, \"public\".\"User\".\"emailVerified\", \"public\".\"User\".\"image\", \"public\".\"User\".\"tenantId\", \"public\".\"User\".\"createdAt\", \"public\".\"User\".\"updatedAt\" FROM \"public\".\"User\" WHERE (\"public\".\"User\".\"email\" = $1 AND 1=1) LIMIT $2 OFFSET $3"
+[00:03:58.779] Server  LOG     prisma:query "SELECT \"public\".\"Tenant\".\"id\", \"public\".\"Tenant\".\"name\", \"public\".\"Tenant\".\"subdomain\", \"public\".\"Tenant\".\"email\", \"public\".\"Tenant\".\"phone\", \"public\".\"Tenant\".\"status\"::text, \"public\".\"Tenant\".\"planId\", \"public\".\"Tenant\".\"trialEndsAt\", \"public\".\"Tenant\".\"createdAt\", \"public\".\"Tenant\".\"updatedAt\" FROM \"public\".\"Tenant\" WHERE \"public\".\"Tenant\".\"id\" IN ($1) OFFSET $2"
+[00:04:01.143] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT \"public\".\"Store\".\"id\" FROM \"public\".\"Store\" WHERE \"public\".\"Store\".\"tenantId\" = $1 OFFSET $2) AS \"sub\""
+[00:04:01.918] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT \"public\".\"Store\".\"id\" FROM \"public\".\"Store\" WHERE \"public\".\"Store\".\"tenantId\" = $1 OFFSET $2) AS \"sub\""
+[00:04:01.922] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT \"public\".\"Product\".\"id\" FROM \"public\".\"Product\" LEFT JOIN \"public\".\"Store\" AS \"j1\" ON (\"j1\".\"id\") = (\"public\".\"Product\".\"storeId\") WHERE (\"j1\".\"tenantId\" = $1 AND (\"j1\".\"id\" IS NOT NULL)) OFFSET $2) AS \"sub\""
+[00:04:01.928] Server  LOG     prisma:query "SELECT SUM(\"total\") FROM (SELECT \"public\".\"Order\".\"total\" FROM \"public\".\"Order\" LEFT JOIN \"public\".\"Store\" AS \"j1\" ON (\"j1\".\"id\") = (\"public\".\"Order\".\"storeId\") WHERE ((\"j1\".\"tenantId\" = $1 AND (\"j1\".\"id\" IS NOT NULL)) AND \"public\".\"Order\".\"orderStatus\" IN (CAST($2::text AS \"public\".\"OrderStatus\"),CAST($3::text AS \"public\".\"OrderStatus\"),CAST($4::text AS \"public\".\"OrderStatus\"))) OFFSET $5) AS \"sub\""
+[00:04:02.036] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT \"public\".\"Order\".\"id\" FROM \"public\".\"Order\" LEFT JOIN \"public\".\"Store\" AS \"j1\" ON (\"j1\".\"id\") = (\"public\".\"Order\".\"storeId\") WHERE (\"j1\".\"tenantId\" = $1 AND (\"j1\".\"id\" IS NOT NULL)) OFFSET $2) AS \"sub\""
+[00:04:02.055] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT \"public\".\"Order\".\"id\" FROM \"public\".\"Order\" LEFT JOIN \"public\".\"Store\" AS \"j1\" ON (\"j1\".\"id\") = (\"public\".\"Order\".\"storeId\") WHERE (\"j1\".\"tenantId\" = $1 AND (\"j1\".\"id\" IS NOT NULL)) OFFSET $2) AS \"sub\""
+[00:04:02.055] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT \"public\".\"Product\".\"id\" FROM \"public\".\"Product\" LEFT JOIN \"public\".\"Store\" AS \"j1\" ON (\"j1\".\"id\") = (\"public\".\"Product\".\"storeId\") WHERE (\"j1\".\"tenantId\" = $1 AND (\"j1\".\"id\" IS NOT NULL)) OFFSET $2) AS \"sub\""
+[00:04:02.059] Server  LOG     prisma:query "SELECT SUM(\"total\") FROM (SELECT \"public\".\"Order\".\"total\" FROM \"public\".\"Order\" LEFT JOIN \"public\".\"Store\" AS \"j1\" ON (\"j1\".\"id\") = (\"public\".\"Order\".\"storeId\") WHERE ((\"j1\".\"tenantId\" = $1 AND (\"j1\".\"id\" IS NOT NULL)) AND \"public\".\"Order\".\"orderStatus\" IN (CAST($2::text AS \"public\".\"OrderStatus\"),CAST($3::text AS \"public\".\"OrderStatus\"),CAST($4::text AS \"public\".\"OrderStatus\"))) OFFSET $5) AS \"sub\""
+[00:04:02.323] Server  LOG     prisma:query "SELECT \"public\".\"Order\".\"id\", \"public\".\"Order\".\"storeId\", \"public\".\"Order\".\"customerId\", \"public\".\"Order\".\"orderNumber\", \"public\".\"Order\".\"customerName\", \"public\".\"Order\".\"customerEmail\", \"public\".\"Order\".\"customerPhone\", \"public\".\"Order\".\"wilayaId\", \"public\".\"Order\".\"communeId\", \"public\".\"Order\".\"address\", \"public\".\"Order\".\"subtotal\", \"public\".\"Order\".\"shippingCost\", \"public\".\"Order\".\"tax\", \"public\".\"Order\".\"discount\", \"public\".\"Order\".\"total\", \"public\".\"Order\".\"orderStatus\"::text, \"public\".\"Order\".\"paymentStatus\"::text, \"public\".\"Order\".\"paymentMethod\"::text, \"public\".\"Order\".\"shippingProvider\", \"public\".\"Order\".\"trackingNumber\", \"public\".\"Order\".\"shippedAt\", \"public\".\"Order\".\"deliveredAt\", \"public\".\"Order\".\"customerNotes\", \"public\".\"Order\".\"internalNotes\", \"public\".\"Order\".\"createdAt\", \"public\".\"Order\".\"updatedAt\" FROM \"public\".\"Order\" LEFT JOIN \"public\".\"Store\" AS \"j1\" ON (\"j1\".\"id\") = (\"public\".\"Order\".\"storeId\") WHERE (\"j1\".\"tenantId\" = $1 AND (\"j1\".\"id\" IS NOT NULL)) ORDER BY \"public\".\"Order\".\"createdAt\" DESC LIMIT $2 OFFSET $3"
+[00:04:02.323] Server  LOG     prisma:query "SELECT \"public\".\"Order\".\"id\", \"public\".\"Order\".\"storeId\", \"public\".\"Order\".\"customerId\", \"public\".\"Order\".\"orderNumber\", \"public\".\"Order\".\"customerName\", \"public\".\"Order\".\"customerEmail\", \"public\".\"Order\".\"customerPhone\", \"public\".\"Order\".\"wilayaId\", \"public\".\"Order\".\"communeId\", \"public\".\"Order\".\"address\", \"public\".\"Order\".\"subtotal\", \"public\".\"Order\".\"shippingCost\", \"public\".\"Order\".\"tax\", \"public\".\"Order\".\"discount\", \"public\".\"Order\".\"total\", \"public\".\"Order\".\"orderStatus\"::text, \"public\".\"Order\".\"paymentStatus\"::text, \"public\".\"Order\".\"paymentMethod\"::text, \"public\".\"Order\".\"shippingProvider\", \"public\".\"Order\".\"trackingNumber\", \"public\".\"Order\".\"shippedAt\", \"public\".\"Order\".\"deliveredAt\", \"public\".\"Order\".\"customerNotes\", \"public\".\"Order\".\"internalNotes\", \"public\".\"Order\".\"createdAt\", \"public\".\"Order\".\"updatedAt\" FROM \"public\".\"Order\" LEFT JOIN \"public\".\"Store\" AS \"j1\" ON (\"j1\".\"id\") = (\"public\".\"Order\".\"storeId\") WHERE (\"j1\".\"tenantId\" = $1 AND (\"j1\".\"id\" IS NOT NULL)) ORDER BY \"public\".\"Order\".\"createdAt\" DESC LIMIT $2 OFFSET $3"
+[00:04:11.882] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:12.008] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/dashboard..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/w...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="fr"
+-                         data-arp=""
+                        >
+                  ...
+
+[00:04:13.560] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT \"public\".\"Order\".\"id\" FROM \"public\".\"Order\" LEFT JOIN \"public\".\"Store\" AS \"j1\" ON (\"j1\".\"id\") = (\"public\".\"Order\".\"storeId\") WHERE (\"j1\".\"tenantId\" = $1 AND (\"j1\".\"id\" IS NOT NULL)) OFFSET $2) AS \"sub\""
+[00:04:13.561] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT \"public\".\"Product\".\"id\" FROM \"public\".\"Product\" LEFT JOIN \"public\".\"Store\" AS \"j1\" ON (\"j1\".\"id\") = (\"public\".\"Product\".\"storeId\") WHERE (\"j1\".\"tenantId\" = $1 AND (\"j1\".\"id\" IS NOT NULL)) OFFSET $2) AS \"sub\""
+[00:04:13.725] Server  LOG     prisma:query "SELECT SUM(\"total\") FROM (SELECT \"public\".\"Order\".\"total\" FROM \"public\".\"Order\" LEFT JOIN \"public\".\"Store\" AS \"j1\" ON (\"j1\".\"id\") = (\"public\".\"Order\".\"storeId\") WHERE ((\"j1\".\"tenantId\" = $1 AND (\"j1\".\"id\" IS NOT NULL)) AND \"public\".\"Order\".\"orderStatus\" IN (CAST($2::text AS \"public\".\"OrderStatus\"),CAST($3::text AS \"public\".\"OrderStatus\"),CAST($4::text AS \"public\".\"OrderStatus\"))) OFFSET $5) AS \"sub\""
+[00:04:13.725] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT \"public\".\"Store\".\"id\" FROM \"public\".\"Store\" WHERE \"public\".\"Store\".\"tenantId\" = $1 OFFSET $2) AS \"sub\""
+[00:04:13.972] Server  LOG     prisma:query "SELECT \"public\".\"Order\".\"id\", \"public\".\"Order\".\"storeId\", \"public\".\"Order\".\"customerId\", \"public\".\"Order\".\"orderNumber\", \"public\".\"Order\".\"customerName\", \"public\".\"Order\".\"customerEmail\", \"public\".\"Order\".\"customerPhone\", \"public\".\"Order\".\"wilayaId\", \"public\".\"Order\".\"communeId\", \"public\".\"Order\".\"address\", \"public\".\"Order\".\"subtotal\", \"public\".\"Order\".\"shippingCost\", \"public\".\"Order\".\"tax\", \"public\".\"Order\".\"discount\", \"public\".\"Order\".\"total\", \"public\".\"Order\".\"orderStatus\"::text, \"public\".\"Order\".\"paymentStatus\"::text, \"public\".\"Order\".\"paymentMethod\"::text, \"public\".\"Order\".\"shippingProvider\", \"public\".\"Order\".\"trackingNumber\", \"public\".\"Order\".\"shippedAt\", \"public\".\"Order\".\"deliveredAt\", \"public\".\"Order\".\"customerNotes\", \"public\".\"Order\".\"internalNotes\", \"public\".\"Order\".\"createdAt\", \"public\".\"Order\".\"updatedAt\" FROM \"public\".\"Order\" LEFT JOIN \"public\".\"Store\" AS \"j1\" ON (\"j1\".\"id\") = (\"public\".\"Order\".\"storeId\") WHERE (\"j1\".\"tenantId\" = $1 AND (\"j1\".\"id\" IS NOT NULL)) ORDER BY \"public\".\"Order\".\"createdAt\" DESC LIMIT $2 OFFSET $3"
+[00:04:14.457] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:14.632] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/dashboard" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/w...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="fr"
+-                         data-arp=""
+                        >
+                  ...
+
+[00:04:31.869] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:32.087] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/login" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/w...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="fr"
+-                         data-arp=""
+                        >
+                  ...
+
+[00:04:37.177] Server  LOG     prisma:query "SELECT 1"
+[00:04:37.596] Server  LOG     prisma:query "SELECT \"public\".\"User\".\"id\", \"public\".\"User\".\"email\", \"public\".\"User\".\"password\", \"public\".\"User\".\"firstName\", \"public\".\"User\".\"lastName\", \"public\".\"User\".\"phone\", \"public\".\"User\".\"role\"::text, \"public\".\"User\".\"emailVerified\", \"public\".\"User\".\"image\", \"public\".\"User\".\"tenantId\", \"public\".\"User\".\"createdAt\", \"public\".\"User\".\"updatedAt\" FROM \"public\".\"User\" WHERE (\"public\".\"User\".\"email\" = $1 AND 1=1) LIMIT $2 OFFSET $3"
+[00:04:40.738] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:40.848] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/forgot-pa..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/w...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="fr"
+-                         data-arp=""
+                        >
+                  ...
+
+[00:04:42.252] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:42.370] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/login" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/w...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="fr"
+-                         data-arp=""
+                        >
+                  ...
+
+[00:04:44.908] Server  LOG     prisma:query "SELECT 1"
+[00:04:44.909] Server  LOG     prisma:query "SELECT 1"
+[00:04:44.911] Server  LOG     prisma:query "SELECT 1"
+[00:04:45.018] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT \"public\".\"Product\".\"id\" FROM \"public\".\"Product\" LEFT JOIN \"public\".\"Store\" AS \"j1\" ON (\"j1\".\"id\") = (\"public\".\"Product\".\"storeId\") WHERE (\"j1\".\"tenantId\" = $1 AND (\"j1\".\"id\" IS NOT NULL)) OFFSET $2) AS \"sub\""
+[00:04:45.035] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT \"public\".\"Store\".\"id\" FROM \"public\".\"Store\" WHERE \"public\".\"Store\".\"tenantId\" = $1 OFFSET $2) AS \"sub\""
+[00:04:45.510] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT \"public\".\"Order\".\"id\" FROM \"public\".\"Order\" LEFT JOIN \"public\".\"Store\" AS \"j1\" ON (\"j1\".\"id\") = (\"public\".\"Order\".\"storeId\") WHERE (\"j1\".\"tenantId\" = $1 AND (\"j1\".\"id\" IS NOT NULL)) OFFSET $2) AS \"sub\""
+[00:04:45.510] Server  LOG     prisma:query "SELECT SUM(\"total\") FROM (SELECT \"public\".\"Order\".\"total\" FROM \"public\".\"Order\" LEFT JOIN \"public\".\"Store\" AS \"j1\" ON (\"j1\".\"id\") = (\"public\".\"Order\".\"storeId\") WHERE ((\"j1\".\"tenantId\" = $1 AND (\"j1\".\"id\" IS NOT NULL)) AND \"public\".\"Order\".\"orderStatus\" IN (CAST($2::text AS \"public\".\"OrderStatus\"),CAST($3::text AS \"public\".\"OrderStatus\"),CAST($4::text AS \"public\".\"OrderStatus\"))) OFFSET $5) AS \"sub\""
+[00:04:46.091] Server  LOG     prisma:query "SELECT \"public\".\"Order\".\"id\", \"public\".\"Order\".\"storeId\", \"public\".\"Order\".\"customerId\", \"public\".\"Order\".\"orderNumber\", \"public\".\"Order\".\"customerName\", \"public\".\"Order\".\"customerEmail\", \"public\".\"Order\".\"customerPhone\", \"public\".\"Order\".\"wilayaId\", \"public\".\"Order\".\"communeId\", \"public\".\"Order\".\"address\", \"public\".\"Order\".\"subtotal\", \"public\".\"Order\".\"shippingCost\", \"public\".\"Order\".\"tax\", \"public\".\"Order\".\"discount\", \"public\".\"Order\".\"total\", \"public\".\"Order\".\"orderStatus\"::text, \"public\".\"Order\".\"paymentStatus\"::text, \"public\".\"Order\".\"paymentMethod\"::text, \"public\".\"Order\".\"shippingProvider\", \"public\".\"Order\".\"trackingNumber\", \"public\".\"Order\".\"shippedAt\", \"public\".\"Order\".\"deliveredAt\", \"public\".\"Order\".\"customerNotes\", \"public\".\"Order\".\"internalNotes\", \"public\".\"Order\".\"createdAt\", \"public\".\"Order\".\"updatedAt\" FROM \"public\".\"Order\" LEFT JOIN \"public\".\"Store\" AS \"j1\" ON (\"j1\".\"id\") = (\"public\".\"Order\".\"storeId\") WHERE (\"j1\".\"tenantId\" = $1 AND (\"j1\".\"id\" IS NOT NULL)) ORDER BY \"public\".\"Order\".\"createdAt\" DESC LIMIT $2 OFFSET $3"
+[00:04:46.542] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:46.815] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/dashboard" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/w...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="fr"
+-                         data-arp=""
+                        >
+                  ...
+
+[00:04:51.015] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:51.196] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/login" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/w...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="fr"
+-                         data-arp=""
+                        >
+                  ...
+
+[00:04:52.133] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:52.279] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/login" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/w...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="fr"
+-                         data-arp=""
+                        >
+                  ...
+
+[00:04:55.016] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:55.164] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/login" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/w...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="fr"
+-                         data-arp=""
+                        >
+                  ...
+
+[00:04:56.717] Server  LOG     prisma:query "SELECT \"public\".\"User\".\"id\", \"public\".\"User\".\"email\", \"public\".\"User\".\"password\", \"public\".\"User\".\"firstName\", \"public\".\"User\".\"lastName\", \"public\".\"User\".\"phone\", \"public\".\"User\".\"role\"::text, \"public\".\"User\".\"emailVerified\", \"public\".\"User\".\"image\", \"public\".\"User\".\"tenantId\", \"public\".\"User\".\"createdAt\", \"public\".\"User\".\"updatedAt\" FROM \"public\".\"User\" WHERE (\"public\".\"User\".\"email\" = $1 AND 1=1) LIMIT $2 OFFSET $3"
+[00:04:56.970] Server  LOG     prisma:query "SELECT \"public\".\"Tenant\".\"id\", \"public\".\"Tenant\".\"name\", \"public\".\"Tenant\".\"subdomain\", \"public\".\"Tenant\".\"email\", \"public\".\"Tenant\".\"phone\", \"public\".\"Tenant\".\"status\"::text, \"public\".\"Tenant\".\"planId\", \"public\".\"Tenant\".\"trialEndsAt\", \"public\".\"Tenant\".\"createdAt\", \"public\".\"Tenant\".\"updatedAt\" FROM \"public\".\"Tenant\" WHERE \"public\".\"Tenant\".\"id\" IN ($1) OFFSET $2"
+[00:05:01.685] Server  LOG     prisma:query "SELECT 1"
+[00:05:01.806] Server  LOG     prisma:query "SELECT \"public\".\"User\".\"id\", \"public\".\"User\".\"email\", \"public\".\"User\".\"password\", \"public\".\"User\".\"firstName\", \"public\".\"User\".\"lastName\", \"public\".\"User\".\"phone\", \"public\".\"User\".\"role\"::text, \"public\".\"User\".\"emailVerified\", \"public\".\"User\".\"image\", \"public\".\"User\".\"tenantId\", \"public\".\"User\".\"createdAt\", \"public\".\"User\".\"updatedAt\" FROM \"public\".\"User\" WHERE (\"public\".\"User\".\"email\" = $1 AND 1=1) LIMIT $2 OFFSET $3"
+[00:05:01.959] Server  LOG     prisma:query "SELECT \"public\".\"Tenant\".\"id\", \"public\".\"Tenant\".\"name\", \"public\".\"Tenant\".\"subdomain\", \"public\".\"Tenant\".\"email\", \"public\".\"Tenant\".\"phone\", \"public\".\"Tenant\".\"status\"::text, \"public\".\"Tenant\".\"planId\", \"public\".\"Tenant\".\"trialEndsAt\", \"public\".\"Tenant\".\"createdAt\", \"public\".\"Tenant\".\"updatedAt\" FROM \"public\".\"Tenant\" WHERE \"public\".\"Tenant\".\"id\" IN ($1) OFFSET $2"
+[00:05:02.234] Server  LOG     prisma:query "SELECT 1"
+[00:05:02.244] Server  LOG     prisma:query "SELECT 1"
+[00:05:02.245] Server  LOG     prisma:query "SELECT 1"
+[00:05:02.334] Server  LOG     prisma:query "SELECT 1"
+[00:05:02.334] Server  LOG     prisma:query "SELECT 1"
+[00:05:02.334] Server  LOG     prisma:query "SELECT 1"
+[00:05:02.334] Server  LOG     prisma:query "SELECT 1"
+[00:05:02.350] Server  LOG     prisma:query "SELECT SUM(\"total\") FROM (SELECT \"public\".\"Order\".\"total\" FROM \"public\".\"Order\" LEFT JOIN \"public\".\"Store\" AS \"j1\" ON (\"j1\".\"id\") = (\"public\".\"Order\".\"storeId\") WHERE ((\"j1\".\"tenantId\" = $1 AND (\"j1\".\"id\" IS NOT NULL)) AND \"public\".\"Order\".\"orderStatus\" IN (CAST($2::text AS \"public\".\"OrderStatus\"),CAST($3::text AS \"public\".\"OrderStatus\"),CAST($4::text AS \"public\".\"OrderStatus\"))) OFFSET $5) AS \"sub\""
+[00:05:02.366] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT \"public\".\"Store\".\"id\" FROM \"public\".\"Store\" WHERE \"public\".\"Store\".\"tenantId\" = $1 OFFSET $2) AS \"sub\""
+[00:05:02.366] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT \"public\".\"Product\".\"id\" FROM \"public\".\"Product\" LEFT JOIN \"public\".\"Store\" AS \"j1\" ON (\"j1\".\"id\") = (\"public\".\"Product\".\"storeId\") WHERE (\"j1\".\"tenantId\" = $1 AND (\"j1\".\"id\" IS NOT NULL)) OFFSET $2) AS \"sub\""
+[00:05:02.615] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT \"public\".\"Order\".\"id\" FROM \"public\".\"Order\" LEFT JOIN \"public\".\"Store\" AS \"j1\" ON (\"j1\".\"id\") = (\"public\".\"Order\".\"storeId\") WHERE (\"j1\".\"tenantId\" = $1 AND (\"j1\".\"id\" IS NOT NULL)) OFFSET $2) AS \"sub\""
+[00:05:02.615] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT \"public\".\"Product\".\"id\" FROM \"public\".\"Product\" LEFT JOIN \"public\".\"Store\" AS \"j1\" ON (\"j1\".\"id\") = (\"public\".\"Product\".\"storeId\") WHERE (\"j1\".\"tenantId\" = $1 AND (\"j1\".\"id\" IS NOT NULL)) OFFSET $2) AS \"sub\""
+[00:05:02.729] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT \"public\".\"Store\".\"id\" FROM \"public\".\"Store\" WHERE \"public\".\"Store\".\"tenantId\" = $1 OFFSET $2) AS \"sub\""
+[00:05:02.731] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT \"public\".\"Order\".\"id\" FROM \"public\".\"Order\" LEFT JOIN \"public\".\"Store\" AS \"j1\" ON (\"j1\".\"id\") = (\"public\".\"Order\".\"storeId\") WHERE (\"j1\".\"tenantId\" = $1 AND (\"j1\".\"id\" IS NOT NULL)) OFFSET $2) AS \"sub\""
+[00:05:02.743] Server  LOG     prisma:query "SELECT \"public\".\"Order\".\"id\", \"public\".\"Order\".\"storeId\", \"public\".\"Order\".\"customerId\", \"public\".\"Order\".\"orderNumber\", \"public\".\"Order\".\"customerName\", \"public\".\"Order\".\"customerEmail\", \"public\".\"Order\".\"customerPhone\", \"public\".\"Order\".\"wilayaId\", \"public\".\"Order\".\"communeId\", \"public\".\"Order\".\"address\", \"public\".\"Order\".\"subtotal\", \"public\".\"Order\".\"shippingCost\", \"public\".\"Order\".\"tax\", \"public\".\"Order\".\"discount\", \"public\".\"Order\".\"total\", \"public\".\"Order\".\"orderStatus\"::text, \"public\".\"Order\".\"paymentStatus\"::text, \"public\".\"Order\".\"paymentMethod\"::text, \"public\".\"Order\".\"shippingProvider\", \"public\".\"Order\".\"trackingNumber\", \"public\".\"Order\".\"shippedAt\", \"public\".\"Order\".\"deliveredAt\", \"public\".\"Order\".\"customerNotes\", \"public\".\"Order\".\"internalNotes\", \"public\".\"Order\".\"createdAt\", \"public\".\"Order\".\"updatedAt\" FROM \"public\".\"Order\" LEFT JOIN \"public\".\"Store\" AS \"j1\" ON (\"j1\".\"id\") = (\"public\".\"Order\".\"storeId\") WHERE (\"j1\".\"tenantId\" = $1 AND (\"j1\".\"id\" IS NOT NULL)) ORDER BY \"public\".\"Order\".\"createdAt\" DESC LIMIT $2 OFFSET $3"
+[00:05:02.746] Server  LOG     prisma:query "SELECT SUM(\"total\") FROM (SELECT \"public\".\"Order\".\"total\" FROM \"public\".\"Order\" LEFT JOIN \"public\".\"Store\" AS \"j1\" ON (\"j1\".\"id\") = (\"public\".\"Order\".\"storeId\") WHERE ((\"j1\".\"tenantId\" = $1 AND (\"j1\".\"id\" IS NOT NULL)) AND \"public\".\"Order\".\"orderStatus\" IN (CAST($2::text AS \"public\".\"OrderStatus\"),CAST($3::text AS \"public\".\"OrderStatus\"),CAST($4::text AS \"public\".\"OrderStatus\"))) OFFSET $5) AS \"sub\""
+[00:05:03.335] Server  LOG     prisma:query "SELECT \"public\".\"Order\".\"id\", \"public\".\"Order\".\"storeId\", \"public\".\"Order\".\"customerId\", \"public\".\"Order\".\"orderNumber\", \"public\".\"Order\".\"customerName\", \"public\".\"Order\".\"customerEmail\", \"public\".\"Order\".\"customerPhone\", \"public\".\"Order\".\"wilayaId\", \"public\".\"Order\".\"communeId\", \"public\".\"Order\".\"address\", \"public\".\"Order\".\"subtotal\", \"public\".\"Order\".\"shippingCost\", \"public\".\"Order\".\"tax\", \"public\".\"Order\".\"discount\", \"public\".\"Order\".\"total\", \"public\".\"Order\".\"orderStatus\"::text, \"public\".\"Order\".\"paymentStatus\"::text, \"public\".\"Order\".\"paymentMethod\"::text, \"public\".\"Order\".\"shippingProvider\", \"public\".\"Order\".\"trackingNumber\", \"public\".\"Order\".\"shippedAt\", \"public\".\"Order\".\"deliveredAt\", \"public\".\"Order\".\"customerNotes\", \"public\".\"Order\".\"internalNotes\", \"public\".\"Order\".\"createdAt\", \"public\".\"Order\".\"updatedAt\" FROM \"public\".\"Order\" LEFT JOIN \"public\".\"Store\" AS \"j1\" ON (\"j1\".\"id\") = (\"public\".\"Order\".\"storeId\") WHERE (\"j1\".\"tenantId\" = $1 AND (\"j1\".\"id\" IS NOT NULL)) ORDER BY \"public\".\"Order\".\"createdAt\" DESC LIMIT $2 OFFSET $3"
+[00:05:20.624] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:20.735] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/dashboard..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/w...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="fr"
+-                         data-arp=""
+                        >
+                  ...
+
+[00:05:22.026] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:22.026] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/login" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/w...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="fr"
+-                         data-arp=""
+                        >
+                  ...
+
+[00:05:36.940] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:37.044] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/forgot-pa..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/w...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="fr"
+-                         data-arp=""
+                        >
+                  ...
+
+[00:05:38.447] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:38.447] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/login" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/w...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="fr"
+-                         data-arp=""
+                        >
+                  ...
+
+[00:06:54.811] Server  LOG     prisma:query "SELECT 1"
+[00:06:54.938] Server  LOG     prisma:query "SELECT \"public\".\"User\".\"id\", \"public\".\"User\".\"email\", \"public\".\"User\".\"password\", \"public\".\"User\".\"firstName\", \"public\".\"User\".\"lastName\", \"public\".\"User\".\"phone\", \"public\".\"User\".\"role\"::text, \"public\".\"User\".\"emailVerified\", \"public\".\"User\".\"image\", \"public\".\"User\".\"tenantId\", \"public\".\"User\".\"createdAt\", \"public\".\"User\".\"updatedAt\" FROM \"public\".\"User\" WHERE (\"public\".\"User\".\"email\" = $1 AND 1=1) LIMIT $2 OFFSET $3"
+[00:06:55.065] Server  LOG     prisma:query "SELECT \"public\".\"Tenant\".\"id\", \"public\".\"Tenant\".\"name\", \"public\".\"Tenant\".\"subdomain\", \"public\".\"Tenant\".\"email\", \"public\".\"Tenant\".\"phone\", \"public\".\"Tenant\".\"status\"::text, \"public\".\"Tenant\".\"planId\", \"public\".\"Tenant\".\"trialEndsAt\", \"public\".\"Tenant\".\"createdAt\", \"public\".\"Tenant\".\"updatedAt\" FROM \"public\".\"Tenant\" WHERE \"public\".\"Tenant\".\"id\" IN ($1) OFFSET $2"
+[00:06:55.337] Server  LOG     prisma:query "SELECT 1"
+[00:06:55.337] Server  LOG     prisma:query "SELECT 1"
+[00:06:55.345] Server  LOG     prisma:query "SELECT 1"
+[00:06:55.347] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT \"public\".\"Store\".\"id\" FROM \"public\".\"Store\" WHERE \"public\".\"Store\".\"tenantId\" = $1 OFFSET $2) AS \"sub\""
+[00:06:55.450] Server  LOG     prisma:query "SELECT 1"
+[00:06:55.450] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT \"public\".\"Order\".\"id\" FROM \"public\".\"Order\" LEFT JOIN \"public\".\"Store\" AS \"j1\" ON (\"j1\".\"id\") = (\"public\".\"Order\".\"storeId\") WHERE (\"j1\".\"tenantId\" = $1 AND (\"j1\".\"id\" IS NOT NULL)) OFFSET $2) AS \"sub\""
+[00:06:55.451] Server  LOG     prisma:query "SELECT 1"
+[00:06:55.452] Server  LOG     prisma:query "SELECT SUM(\"total\") FROM (SELECT \"public\".\"Order\".\"total\" FROM \"public\".\"Order\" LEFT JOIN \"public\".\"Store\" AS \"j1\" ON (\"j1\".\"id\") = (\"public\".\"Order\".\"storeId\") WHERE ((\"j1\".\"tenantId\" = $1 AND (\"j1\".\"id\" IS NOT NULL)) AND \"public\".\"Order\".\"orderStatus\" IN (CAST($2::text AS \"public\".\"OrderStatus\"),CAST($3::text AS \"public\".\"OrderStatus\"),CAST($4::text AS \"public\".\"OrderStatus\"))) OFFSET $5) AS \"sub\""
+[00:06:55.456] Server  LOG     prisma:query "SELECT 1"
+[00:06:55.457] Server  LOG     prisma:query "SELECT 1"
+[00:06:55.567] Server  LOG     prisma:query "SELECT SUM(\"total\") FROM (SELECT \"public\".\"Order\".\"total\" FROM \"public\".\"Order\" LEFT JOIN \"public\".\"Store\" AS \"j1\" ON (\"j1\".\"id\") = (\"public\".\"Order\".\"storeId\") WHERE ((\"j1\".\"tenantId\" = $1 AND (\"j1\".\"id\" IS NOT NULL)) AND \"public\".\"Order\".\"orderStatus\" IN (CAST($2::text AS \"public\".\"OrderStatus\"),CAST($3::text AS \"public\".\"OrderStatus\"),CAST($4::text AS \"public\".\"OrderStatus\"))) OFFSET $5) AS \"sub\""
+[00:06:55.580] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT \"public\".\"Order\".\"id\" FROM \"public\".\"Order\" LEFT JOIN \"public\".\"Store\" AS \"j1\" ON (\"j1\".\"id\") = (\"public\".\"Order\".\"storeId\") WHERE (\"j1\".\"tenantId\" = $1 AND (\"j1\".\"id\" IS NOT NULL)) OFFSET $2) AS \"sub\""
+[00:06:55.580] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT \"public\".\"Product\".\"id\" FROM \"public\".\"Product\" LEFT JOIN \"public\".\"Store\" AS \"j1\" ON (\"j1\".\"id\") = (\"public\".\"Product\".\"storeId\") WHERE (\"j1\".\"tenantId\" = $1 AND (\"j1\".\"id\" IS NOT NULL)) OFFSET $2) AS \"sub\""
+[00:06:55.600] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT \"public\".\"Product\".\"id\" FROM \"public\".\"Product\" LEFT JOIN \"public\".\"Store\" AS \"j1\" ON (\"j1\".\"id\") = (\"public\".\"Product\".\"storeId\") WHERE (\"j1\".\"tenantId\" = $1 AND (\"j1\".\"id\" IS NOT NULL)) OFFSET $2) AS \"sub\""
+[00:06:55.862] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT \"public\".\"Store\".\"id\" FROM \"public\".\"Store\" WHERE \"public\".\"Store\".\"tenantId\" = $1 OFFSET $2) AS \"sub\""
+[00:06:55.862] Server  LOG     prisma:query "SELECT \"public\".\"Order\".\"id\", \"public\".\"Order\".\"storeId\", \"public\".\"Order\".\"customerId\", \"public\".\"Order\".\"orderNumber\", \"public\".\"Order\".\"customerName\", \"public\".\"Order\".\"customerEmail\", \"public\".\"Order\".\"customerPhone\", \"public\".\"Order\".\"wilayaId\", \"public\".\"Order\".\"communeId\", \"public\".\"Order\".\"address\", \"public\".\"Order\".\"subtotal\", \"public\".\"Order\".\"shippingCost\", \"public\".\"Order\".\"tax\", \"public\".\"Order\".\"discount\", \"public\".\"Order\".\"total\", \"public\".\"Order\".\"orderStatus\"::text, \"public\".\"Order\".\"paymentStatus\"::text, \"public\".\"Order\".\"paymentMethod\"::text, \"public\".\"Order\".\"shippingProvider\", \"public\".\"Order\".\"trackingNumber\", \"public\".\"Order\".\"shippedAt\", \"public\".\"Order\".\"deliveredAt\", \"public\".\"Order\".\"customerNotes\", \"public\".\"Order\".\"internalNotes\", \"public\".\"Order\".\"createdAt\", \"public\".\"Order\".\"updatedAt\" FROM \"public\".\"Order\" LEFT JOIN \"public\".\"Store\" AS \"j1\" ON (\"j1\".\"id\") = (\"public\".\"Order\".\"storeId\") WHERE (\"j1\".\"tenantId\" = $1 AND (\"j1\".\"id\" IS NOT NULL)) ORDER BY \"public\".\"Order\".\"createdAt\" DESC LIMIT $2 OFFSET $3"
+[00:06:55.990] Server  LOG     prisma:query "SELECT \"public\".\"Order\".\"id\", \"public\".\"Order\".\"storeId\", \"public\".\"Order\".\"customerId\", \"public\".\"Order\".\"orderNumber\", \"public\".\"Order\".\"customerName\", \"public\".\"Order\".\"customerEmail\", \"public\".\"Order\".\"customerPhone\", \"public\".\"Order\".\"wilayaId\", \"public\".\"Order\".\"communeId\", \"public\".\"Order\".\"address\", \"public\".\"Order\".\"subtotal\", \"public\".\"Order\".\"shippingCost\", \"public\".\"Order\".\"tax\", \"public\".\"Order\".\"discount\", \"public\".\"Order\".\"total\", \"public\".\"Order\".\"orderStatus\"::text, \"public\".\"Order\".\"paymentStatus\"::text, \"public\".\"Order\".\"paymentMethod\"::text, \"public\".\"Order\".\"shippingProvider\", \"public\".\"Order\".\"trackingNumber\", \"public\".\"Order\".\"shippedAt\", \"public\".\"Order\".\"deliveredAt\", \"public\".\"Order\".\"customerNotes\", \"public\".\"Order\".\"internalNotes\", \"public\".\"Order\".\"createdAt\", \"public\".\"Order\".\"updatedAt\" FROM \"public\".\"Order\" LEFT JOIN \"public\".\"Store\" AS \"j1\" ON (\"j1\".\"id\") = (\"public\".\"Order\".\"storeId\") WHERE (\"j1\".\"tenantId\" = $1 AND (\"j1\".\"id\" IS NOT NULL)) ORDER BY \"public\".\"Order\".\"createdAt\" DESC LIMIT $2 OFFSET $3"
+[00:07:32.758] Server  LOG     prisma:query "SELECT 1"
+[00:07:32.758] Server  LOG     prisma:query "SELECT 1"
+[00:07:32.758] Server  LOG     prisma:query "SELECT 1"
+[00:07:32.758] Server  LOG     prisma:query "SELECT 1"
+[00:07:33.216] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT \"public\".\"Store\".\"id\" FROM \"public\".\"Store\" WHERE \"public\".\"Store\".\"tenantId\" = $1 OFFSET $2) AS \"sub\""
+[00:07:33.216] Server  LOG     prisma:query "SELECT SUM(\"total\") FROM (SELECT \"public\".\"Order\".\"total\" FROM \"public\".\"Order\" LEFT JOIN \"public\".\"Store\" AS \"j1\" ON (\"j1\".\"id\") = (\"public\".\"Order\".\"storeId\") WHERE ((\"j1\".\"tenantId\" = $1 AND (\"j1\".\"id\" IS NOT NULL)) AND \"public\".\"Order\".\"orderStatus\" IN (CAST($2::text AS \"public\".\"OrderStatus\"),CAST($3::text AS \"public\".\"OrderStatus\"),CAST($4::text AS \"public\".\"OrderStatus\"))) OFFSET $5) AS \"sub\""
+[00:07:33.216] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT \"public\".\"Order\".\"id\" FROM \"public\".\"Order\" LEFT JOIN \"public\".\"Store\" AS \"j1\" ON (\"j1\".\"id\") = (\"public\".\"Order\".\"storeId\") WHERE (\"j1\".\"tenantId\" = $1 AND (\"j1\".\"id\" IS NOT NULL)) OFFSET $2) AS \"sub\""
+[00:07:33.216] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT \"public\".\"Product\".\"id\" FROM \"public\".\"Product\" LEFT JOIN \"public\".\"Store\" AS \"j1\" ON (\"j1\".\"id\") = (\"public\".\"Product\".\"storeId\") WHERE (\"j1\".\"tenantId\" = $1 AND (\"j1\".\"id\" IS NOT NULL)) OFFSET $2) AS \"sub\""
+[00:07:33.610] Server  LOG     prisma:query "SELECT \"public\".\"Order\".\"id\", \"public\".\"Order\".\"storeId\", \"public\".\"Order\".\"customerId\", \"public\".\"Order\".\"orderNumber\", \"public\".\"Order\".\"customerName\", \"public\".\"Order\".\"customerEmail\", \"public\".\"Order\".\"customerPhone\", \"public\".\"Order\".\"wilayaId\", \"public\".\"Order\".\"communeId\", \"public\".\"Order\".\"address\", \"public\".\"Order\".\"subtotal\", \"public\".\"Order\".\"shippingCost\", \"public\".\"Order\".\"tax\", \"public\".\"Order\".\"discount\", \"public\".\"Order\".\"total\", \"public\".\"Order\".\"orderStatus\"::text, \"public\".\"Order\".\"paymentStatus\"::text, \"public\".\"Order\".\"paymentMethod\"::text, \"public\".\"Order\".\"shippingProvider\", \"public\".\"Order\".\"trackingNumber\", \"public\".\"Order\".\"shippedAt\", \"public\".\"Order\".\"deliveredAt\", \"public\".\"Order\".\"customerNotes\", \"public\".\"Order\".\"internalNotes\", \"public\".\"Order\".\"createdAt\", \"public\".\"Order\".\"updatedAt\" FROM \"public\".\"Order\" LEFT JOIN \"public\".\"Store\" AS \"j1\" ON (\"j1\".\"id\") = (\"public\".\"Order\".\"storeId\") WHERE (\"j1\".\"tenantId\" = $1 AND (\"j1\".\"id\" IS NOT NULL)) ORDER BY \"public\".\"Order\".\"createdAt\" DESC LIMIT $2 OFFSET $3"
+[00:07:34.699] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:35.128] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/dashboard" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/w...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="fr"
+-                         data-arp=""
+                        >
+                          <body
+                            className="inter_5972bc34-module__OU16Qa__className"
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[00:07:43.614] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:43.769] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/login" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/w...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="fr"
+-                         data-arp=""
+                        >
+                  ...
+
